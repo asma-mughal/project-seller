@@ -17,3 +17,16 @@ code {
     monospace ,;
 
 }
+
+@layer base {
+  img {
+    @apply w-full
+  }
+
+  .section {
+    @apply container mx-auto py-24 px-6 
+  }
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+}

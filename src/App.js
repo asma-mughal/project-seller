@@ -14,6 +14,7 @@ import GoogleCalendar from './components/google/Calendar';
 import PageCalendar from './pages/Calendar/PageCalendar';
 import TextEditor from './pages/TextEditor/TextEditor';
 import Newfolder from './pages/Zoom/Newfolder';
+import MainHome from './components/Main/MainHome';
 
 function App() {
   const {darkMode} = useContext(DarkModeContext)
@@ -23,7 +24,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route index element={<Home  />} />
+        <Route index element={<MainHome />} />
+          <Route path="dash" element={<Home  />} />
           <Route path="login" element={<Login />} />
           <Route path="users">
             <Route index element={<List />} />
