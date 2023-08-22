@@ -29,13 +29,6 @@ Experience the true power of the{' '}
 customer interactions for the modern age. Let's embark on this journey of
 <span className="font-extrabold "> CRM Exploration</span> by scrolling below.
       </motion.p>
-
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
     </motion.div>
   </section>
 );

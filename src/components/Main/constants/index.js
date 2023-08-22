@@ -1,89 +1,108 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/pexels-photomix-company-106344.jpg', // Replace with relevant CRM solution image
+    title: 'Sales Optimization Suite',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/pexels-clem-onojeghuo-375889.jpg', // Replace with relevant CRM solution image
+    title: 'Customer Engagement Hub',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/pexels-linkedin-sales-navigator-2182973.jpg', // Replace with relevant CRM solution image
+    title: 'Marketing Intelligence Platform',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/pexels-andrea-piacquadio-845451.jpg', // Replace with relevant CRM solution image
+    title: 'Service Excellence Suite',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/pexels-photomix-company-518244.jpg', // Replace with relevant CRM solution image
+    title: 'Analytics Insights Dashboard',
   },
 ];
 
+
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Discover tailored solutions for your business needs',
+  'Streamline customer interactions and engagement',
+  'Optimize sales processes for increased conversions',
+  'Gain actionable insights with advanced analytics',
+  'Enhance collaboration across teams and departments',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Enhanced Customization',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'Experience our enhanced customization options that allow you to tailor your CRM to your unique business needs.',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/vrpano.svg',
+    title: 'Intelligent Automation',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Discover our advanced automation features that streamline your workflows and boost productivity.',
+  },
+];
+export const insights = [
+  {
+    imgUrl: '/pexels-edmond-dantès-8553867.jpg', // Replace with relevant image
+    title: 'Unlock Business Growth',
+    Tender:'National',
+    Client:'Region Occitanie, region',
+    Location : 'Cotes-d Armor(22) - CSLA - services',
+    RealeseDate:'08/23/2023',
+    ClosingDate:'08/23/2023',
+  
+    subtitle:
+      'Discover how businesses are unlocking growth potential by leveraging the power of our CRM solutions.',
+  },
+  {
+    imgUrl: '/pexels-tima-miroshnichenko-7567443.jpg', // Replace with relevant image
+    title: 'Data-Driven Decision Making',
+    Tender:'National',
+    Client:'Region Occitanie, region',
+    Location : 'Cotes-d Armor(22) - CSLA - services',
+    RealeseDate:'08/23/2023',
+    ClosingDate:'08/23/2023',
+    subtitle:
+      'Learn how data-driven decision making can transform your business strategies and drive success.',
+  },
+  {
+    imgUrl: '/pexels-antoni-shkraba-4348401.jpg', // Replace with relevant image
+    title: 'Personalized Customer Experiences',
+    Tender:'National',
+    Client:'Region Occitanie, region',
+    Location : 'Cotes-d Armor(22) - CSLA - services',
+    RealeseDate:'08/23/2023',
+    ClosingDate:'08/23/2023',
+    subtitle:
+      'Explore the impact of delivering personalized customer experiences and building lasting relationships.',
   },
 ];
 
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
 
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    url: '/twitter.png',
   },
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    url: '/linkedin.png',
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    url: '/instagram.png',
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    url: '/facebook.png',
   },
 ];
 export const navLinks = [
